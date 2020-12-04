@@ -1,0 +1,155 @@
+@font-face{
+    font-family: work_sans;
+    src: url('../assets/Work_Sans/WorkSans-Medium.ttf');
+}
+
+body{
+    font-family: work_sans, sans-serif;
+}
+
+
+.sec-nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1233px;
+    margin: 0 auto;
+    padding: 15px 0;
+    border-bottom: 3px solid #3BD100 ;
+    font-family: roboto, sans-serif;
+}
+
+.primary-nav{
+    max-width: 1233px;
+    margin: 0 auto;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+}
+
+.primary-nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.primary-nav ul li{
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+.primary-nav ul li:first-child{
+    margin-right: 150px;
+
+}
+
+header a{
+    text-decoration: none;
+    
+}
+header a:hover{
+    color: #3BD100;
+}
+.banner img{
+    display:block;
+    max-width: 100%;
+}
+.banner figure{
+    position: relative;
+}
+.banner figcaption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner figcaption{
+    max-width: 520px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    padding: 52px 32px;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.new-collection section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.new-collection section div{
+    width: 30.5%;
+    background-color:#F5F5F5;
+    margin: 20px;
+    font-family: roboto, sans-serif;
+}
+
+.new-collection .container{
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+.new-collection .item_name{
+    color: #3BD100;
+    font-size: 20px;
+    font-family: WorkSans, sans-serif;
+}
+
+.new-collection figure{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.popular_design{
+    text-align: center;
+    font-family: WorkSans, sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    position: relative;
+}
+
+#forborderbottom{
+    position: absolute;
+    border: 3px solid #3BD100;
+    width: 4%;
+    left: 50%;
+}
+
+.popular_design section p{
+    max-width: 1233px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    margin: 0px 327px 0px 327px;
+
+}
+
+
+
+.forItems{
+    display: flex;
+    max-width: 1233px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.forItems div figure{
+    background-color: #F3F3F3;
+    margin: 10px;
+    padding: 20px;
+}
+
+.forItems div figcaption{
+    font-family: WorkSans, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    margin: 10px;
+    word-wrap: break-word;
+}
+
+.caption{
+    font-size: 15px;
+    font-weight: 200;
+}
